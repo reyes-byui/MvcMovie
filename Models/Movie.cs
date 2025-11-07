@@ -91,6 +91,30 @@ public static class SeedData
                     Genre = "Western",
                     Rating = "NC-17",
                     Price = 3.99M
+                },
+                new Movie
+                {
+                    Title = "Monster Hunt",
+                    ReleaseDate = DateTime.Parse("2015-7-16"),
+                    Genre = "Fiction",
+                    Rating = "PG-13",
+                    Price = 4.99M
+                },
+                new Movie
+                {
+                    Title = "Tinker Bell and the Legend of the NeverBeast",
+                    ReleaseDate = DateTime.Parse("2014-12-12"),
+                    Genre = "Fantasy",
+                    Rating = "G",
+                    Price = 9.99M
+                },
+                new Movie
+                {
+                    Title = "The Hobbit",
+                    ReleaseDate = DateTime.Parse("2012-12-14"),
+                    Genre = "Fiction",
+                    Rating = "PG-13",
+                    Price = 12.99M
                 }
             );
             context.SaveChanges();
